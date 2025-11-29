@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
@@ -35,7 +36,7 @@
 
     <main>
         <div class="main-content">
-            <h1 class="section-title">Collage Graduados </h1>
+            <h1 class="section-title">Collage Graduados</h1>
             <a class="section-texto">Proyectos de Ingeniería Multimedia que integran arte, tecnología y diseño. Una
                 Graduación simbólica de la materia Diseño. Este cierre representa el recorrido por cada etapa del
                 flujo de trabajo de un proyecto: desde la planificación y la investigación, pasando por la organización
@@ -43,154 +44,25 @@
                 entender cómo se estructura y se lleva a cabo un proyecto real, convirtiendo conceptos en resultados
                 concretos.</a>
 
-            <section id="video" class="video-container-content">
+            <section class="video-container-content">
                 <div class="collage-container">
-                    <button class="boton-collage">Estilo 1</button>
-                    <button class="boton-collage">Estilo 2</button>
-                    <div class="collage-container2">
-                        <div class="collage-container3">
-                            <div class="collage-container4">
-                                <div class="collage-container4-1">
-                                    <img src="umng.png" alt="umng" class="logo-collage">
-                                    <div class="contain2">
+                    <button class="boton-collage activo" onclick="cambiarEstilo(1)">Estilo 1</button>
+                    <button class="boton-collage" onclick="cambiarEstilo(2)">Estilo 2</button>
 
-                                        <a class="collage-texto">UNIVERSIDAD MILITAR NUEVA GRANADA</a>
-
-                                    </div>
-                                </div>
-                                <div class="collage-container4-2">
-                                    <div class="contain">
-
-                                        <a class="collage-texto2">DISEÑO MUL A</a>
-
-                                    </div>
-
-                                    <div class="collage-cont">
-                                        <div class="collage-align">
-                                             <div class="frame"></div>
-                                            <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                                
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                               <div class="frame"></div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                             <div class="sitio-fotos">
-                                                <div class="fotos">
-                                                    <img src="IMG_5018.jpg" alt="proyecto2_img1" class="fotos-c">
-                                                </div>
-                                                <a class="fotos-texto">Anderson Monsalve</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-
-                                    <div class="fecha">
-                                        <a class="fecha-texto">2025</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="collage-container2 estilo1" id="collage-main">
+                        <!-- Contenido se cargará dinámicamente -->
                     </div>
-
+                </div>
             </section>
+
+            <button onclick="descargarCollageCompleto()" class="boton-descargar">
+                📸 Descargar Collage Completo
+            </button>
+        </div>
+
+
+
+
 
     </main>
 
@@ -199,6 +71,186 @@
         <div class="footer-content">
             <p class="footer-text">© 2025 NewMedia. Todos los derechos reservados.</p>
         </div>
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+        <script>
+            const estudiantes = [
+                'Anderson Monsalve', '1','2','3','4','5','6','7','8','9','10',
+                '11','12','13','14','15','16','17','18'
+            ];
+
+            function generarEstilo1() {
+                return `
+                <div class="collage-container3">
+                    <div class="collage-container4">
+                        <div class="collage-container4-1">
+                            <img src="umng.png" alt="umng" class="logo-collage">
+                            <div class="contain2">
+                                <a class="collage-texto">UNIVERSIDAD MILITAR NUEVA GRANADA</a>
+                            </div>
+                        </div>
+                        <div class="collage-container4-2">
+                            <div class="contain">
+                                <a class="collage-texto2">DISEÑO MUL A</a>
+                            </div>
+                            <div class="collage-cont">
+                                <div class="collage-align">
+                               
+                                    ${estudiantes.map((nombre, index) => `
+                                        <div class="sitio-fotos">
+                                            <div class="fotos">
+                                                <img src="${index + 1}.jpg" alt="${nombre}" class="fotos-c" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;font-size:50px;\\'>👤</div>'">
+                                            </div>
+                                            <a class="fotos-texto">${nombre}</a>
+                                        </div>
+                                    `).join('')}
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fecha">
+                            <a class="fecha-texto">2025</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            }
+
+            function generarEstilo2() {
+                return `
+                <div class="collage-container3">
+                    <div class="collage-container4">
+                        <div class="collage-container4-2">
+                            <div class="collage-cont2">
+                                <div class="collage-align">
+                                    ${estudiantes.slice(0, 5).map((nombre, index) => `
+                                        <div class="sitio-fotos">
+                                            <div class="fotos">
+                                                <img src="${index + 1}.jpg" alt="${nombre}" class="fotos-c" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%);display:flex;align-items:center;justify-content:center;font-size:40px;\\'>👤</div>'">
+                                            </div>
+                                            <a class="fotos-texto">${nombre}</a>
+                                        </div>
+                                    `).join('')}
+                                    
+                                    <div class="collage-container4-1">
+                                        <img src="umng.png" alt="umng" class="logo-collage">
+                                        <a class="collage-texto">UNIVERSIDAD MILITAR NUEVA GRANADA</a>
+                                    </div>
+                                    
+                                    ${estudiantes.slice(5, 11).map((nombre, index) => `
+                                        <div class="sitio-fotos2">
+                                            <div class="fotos">
+                                                <img src="${index + 6}.jpg" alt="${nombre}" class="fotos-c" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%);display:flex;align-items:center;justify-content:center;font-size:40px;\\'>👤</div>'">
+                                            </div>
+                                            <a class="fotos-texto">${nombre}</a>
+                                        </div>
+                                    `).join('')}
+                                    
+                                    <div class="sitio-profesor">
+                                        <div class="sitio-fotos2">
+                                            <div class="fotos" style="border-color: #FFD700;">
+                                                <img src="20.jpg" alt="Profesor" class="fotos-c2" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);display:flex;align-items:center;justify-content:center;font-size:50px;\\'>👨‍🏫</div>'">
+                                            </div>
+                                            <a class="fotos-texto2">Profesor</a>
+                                        </div>
+                                    </div>
+                                    
+                                    ${estudiantes.slice(11, 19).map((nombre, index) => `
+                                        <div class="sitio-fotos3">
+                                            <div class="fotos">
+                                                <img src="${index + 12}.jpg" alt="${nombre}" class="fotos-c" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%);display:flex;align-items:center;justify-content:center;font-size:40px;\\'>👤</div>'">
+                                            </div>
+                                            <a class="fotos-texto">${nombre}</a>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                            <div class="contain">
+                                <a class="collage-texto2">DISEÑO 2025-2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            }
+
+            function cambiarEstilo(estilo) {
+                const collageMain = document.getElementById('collage-main');
+                const botones = document.querySelectorAll('.boton-collage');
+
+                // Actualizar botones activos
+                botones.forEach((boton, index) => {
+                    if (index + 1 === estilo) {
+                        boton.classList.add('activo');
+                    } else {
+                        boton.classList.remove('activo');
+                    }
+                });
+
+                // Cambiar clase y contenido según el estilo
+                if (estilo === 1) {
+                    collageMain.classList.remove('estilo2');
+                    collageMain.classList.add('estilo1');
+                    collageMain.innerHTML = generarEstilo1();
+                } else {
+                    collageMain.classList.remove('estilo1');
+                    collageMain.classList.add('estilo2');
+                    collageMain.innerHTML = generarEstilo2();
+                }
+            }
+
+            function descargarCollageCompleto() {
+                const elemento = document.querySelector('.collage-container2');
+                const boton = document.querySelector('.boton-descargar');
+
+                if (!elemento) {
+                    alert('No se encontró el collage');
+                    return;
+                }
+
+                const textoOriginal = boton.innerHTML;
+                boton.innerHTML = '⏳ Generando imagen...';
+                boton.disabled = true;
+
+                html2canvas(elemento, {
+                    backgroundColor: '#FFFFFF',
+                    scale: 2,
+                    useCORS: true,
+                    logging: false,
+                    width: elemento.scrollWidth,
+                    height: elemento.scrollHeight,
+                    windowWidth: elemento.scrollWidth,
+                    windowHeight: elemento.scrollHeight
+                }).then(canvas => {
+                    const fecha = new Date();
+                    const nombreArchivo = `collage-graduados-diseño-${fecha.getFullYear()}-${fecha.getMonth() + 1}-${fecha.getDate()}.png`;
+
+                    const link = document.createElement('a');
+                    link.download = nombreArchivo;
+                    link.href = canvas.toDataURL('image/png', 1.0);
+                    link.click();
+
+                    boton.innerHTML = textoOriginal;
+                    boton.disabled = false;
+
+                    alert('✅ ¡Collage descargado exitosamente!');
+                }).catch(error => {
+                    console.error('Error al generar la imagen:', error);
+                    alert('❌ Hubo un error al generar la imagen. Por favor intenta de nuevo.');
+
+                    boton.innerHTML = textoOriginal;
+                    boton.disabled = false;
+                });
+            }
+
+            // Inicializar con estilo 1
+            document.addEventListener('DOMContentLoaded', function () {
+                cambiarEstilo(1);
+            });
+        </script>
+        
+
 </body>
 
 </html>
